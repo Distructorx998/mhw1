@@ -1,0 +1,177 @@
+a{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    background-color:blueviolet ;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Comic Sans MS', serif;
+    background-color: aliceblue;
+}
+
+#menu {
+    display: none;
+}
+
+@media (max-width:600px){
+    #barra{
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        top:0px;
+        right: 10px;
+    }
+    #menu div {
+        border-radius: 100px;
+        width: 25px;
+        height: 3px;
+        background-color: whitesmoke;
+        margin: 5px 0px;
+    }
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    background-color: black;
+    height: 3vh;
+    color: white;
+    padding: 10px;
+}
+header{
+    background-image: url(gemme1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    color:whitesmoke;
+}
+header h1{
+    width:780px;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 4px;
+
+    
+}
+
+img.classe{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+    background-color:navy;
+    padding: 2px;
+}
+
+#overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+#profilo{
+    display: flex;
+   /* justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+}
+
+#profilo img{
+    border: 2px solid navy;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: navy;
+    margin-top: -50px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top:60px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+section div{
+    display: flex;
+    font-size: 20px;
+}
+
+section div.blocco{
+    flex-direction: column;
+   
+}
+
+section div.flex-item {
+    height: 100%;
+    width: 66.67%;
+   /* justify-content: center;*/
+    margin-bottom: 120px;
+
+}
+section img{
+    margin-top:20px;
+    height: 100%;
+    width:100%;
+
+}
+section div.testo {
+    margin:  20px 0px;
+}
+
+section div.uno{
+    margin-right: 40px;
+    font-size: 30px;
+    color:grey;
+}
+
+
+section p {
+ margin:0px;
+}
+
+section strong.potere {
+    font-size: 30px;
+    color: purple;
+}
+section strong.realta {
+    font-size: 30px;
+    color:crimson;
+}
+section strong.spazio{
+    font-size: 30px;
+    color:deepskyblue;
+}
+section strong.tempo{
+    font-size: 30px;
+    color:lawngreen;
+}
+section strong.mente{
+    font-size: 30px;
+    color:gold;
+}
+
+section strong.anima{
+    font-size: 30px;
+    color:goldenrod;
+}
